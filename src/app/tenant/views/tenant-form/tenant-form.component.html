@@ -1,1 +1,25 @@
-<p>tenant-form works!</p>
+<ng-container *ngIf="!loading; else loadingTemplate">
+  <form [formGroup]="tenantForm" (ngSubmit)="onSubmit()">
+    <label>First Name</label><br />
+    <input type="text" formControlName="firstName" [name]="'FirstName'" />
+
+    <br /><br />
+
+    <label>Last Name</label><br />
+    <input type="text" formControlName="lastName" [name]="'LastName'" />
+
+    <br /><br />
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <pre>
+    <div>Tenant:</div>
+    {{ tenant | json }}
+  </pre>
+  <pre>
+    <div>Tenant Form:</div>
+    {{ tenantForm.value | json }}
+  </pre>
+</ng-container>
+<ng-template #loadingTemplate> Loading... </ng-template>

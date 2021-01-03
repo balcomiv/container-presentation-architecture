@@ -1,1 +1,5 @@
-<p>tenant-detail works!</p>
+<app-tenant-form
+  [loading]="loading | async"
+  [tenant]="tenant | async"
+  (submitForm)="save($event)"
+></app-tenant-form>

@@ -25,3 +25,31 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Further Reading
+
+- https://stackoverflow.com/questions/56015702/angular-form-builder-vs-form-control-and-form-group
+
+### Ivy && Strict Checks
+
+- [Angular Ivy strictTemplates true Type 'boolean | null' is not assignable to type 'boolean'](https://stackoverflow.com/questions/61780339/angular-ivy-stricttemplates-true-type-boolean-null-is-not-assignable-to-type)
+
+- [Structural directive approach to async pipe initial null problem](https://blog.lacolaco.net/2020/02/async-pipe-initial-null-problem-en/)
+
+### Typed Version of SimpleChanges
+
+- [https://netbasal.com/create-a-typed-version-of-simplechanges-in-angular-451f86593003](https://netbasal.com/create-a-typed-version-of-simplechanges-in-angular-451f86593003)
+
+### Explicit Return Types && Strict Checks
+
+-[TypeScript strictly typed: strict mode is not enough](https://medium.com/@cyrilletuzi/typescript-strictly-typed-strict-mode-is-not-enough-40df698e2deb)
+
+- [Strict mode not enough - github](https://github.com/cyrilletuzi/typescript-strictly-typed)
+
+- [Is there a way to enforce method return types on Typescript classes via a tslint rule?](https://stackoverflow.com/questions/42793701/is-there-a-way-to-enforce-method-return-types-on-typescript-classes-via-a-tslint)
+
+- [Require Call Signature](https://palantir.github.io/tslint/rules/typedef/)
+
+## Reactive Forms
+
+- [How to not trigger value changes when editing a FormControl in Angular](https://samiprogramming.medium.com/how-to-not-trigger-value-changes-when-editing-a-formcontrol-in-angular-2-198a8fe541d8)
