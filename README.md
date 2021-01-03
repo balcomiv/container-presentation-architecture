@@ -26,6 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## Reactive example created from
+
+- [Garrett's Example of smart/dumb components](https://stackblitz.com/edit/smart-dumb-component-architecture)
+
 ## Further Reading
 
 - https://stackoverflow.com/questions/56015702/angular-form-builder-vs-form-control-and-form-group
