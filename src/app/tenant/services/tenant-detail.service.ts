@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { switchMap, tap } from 'rxjs/operators';
-import { ApiService } from 'src/app/api/api.service';
+import { ApiService } from '../../api/api.service';
 import { Tenant } from '../interfaces/tenant.interface';
 
 @Injectable({
