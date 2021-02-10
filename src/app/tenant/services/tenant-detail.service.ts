@@ -31,9 +31,12 @@ export class TenantDetailService {
   }
 
   save(tenant: Tenant): void {
-    //  Simulate long running load from API
-    this.subject.next({ ...this.subject.value, loading: true });
+    this.subject.next({
+      loading: true,
+      tenant: { ...this.subject.value.tenant },
+    });
 
+    //  Simulate long running load from API
     setTimeout(() => {
       this.subject.next({ loading: false, tenant: { ...tenant } });
     }, 1000);
