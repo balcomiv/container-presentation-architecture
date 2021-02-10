@@ -61,3 +61,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - `"linterOptions": { "exclude": [ "bin", "lib/*generated.js" ] }`
 
 - [Reactive Forms with Smart/Dumb Components (3 approaches)](https://medium.com/angular-athens/reactive-forms-with-smart-dumb-components-48ebc81417c7)
+
+## Async Pipe
+- [Three things you didn't know about the async pipe](https://blog.thoughtram.io/angular/2017/02/27/three-things-you-didnt-know-about-the-async-pipe.html)
+
