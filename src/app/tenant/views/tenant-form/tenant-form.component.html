@@ -13,7 +13,7 @@
     <button type="submit">Submit</button>
   </form>
 
-  <pre>
+  <pre *ngIf="tenant">
     <div>Tenant:</div>
     {{ tenant | json }}
   </pre>

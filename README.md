@@ -57,3 +57,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Reactive Forms
 
 - [How to not trigger value changes when editing a FormControl in Angular](https://samiprogramming.medium.com/how-to-not-trigger-value-changes-when-editing-a-formcontrol-in-angular-2-198a8fe541d8)
+
+- `"linterOptions": { "exclude": [ "bin", "lib/*generated.js" ] }`
+
+- [Reactive Forms with Smart/Dumb Components (3 approaches)](https://medium.com/angular-athens/reactive-forms-with-smart-dumb-components-48ebc81417c7)
